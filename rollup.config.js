@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import babel from "@rollup/plugin-babel";
 import typescript from "@rollup/plugin-typescript";
 import terser from "@rollup/plugin-terser";
+import {bundleStats} from "rollup-plugin-bundle-stats";
 
 export default {
     input: "src/HelloWorld.tsx", // Entry point
@@ -29,5 +30,6 @@ export default {
             babelHelpers: "bundled",
         }),
         terser(), // Minify the bundle
+        bundleStats()
     ],
 };
