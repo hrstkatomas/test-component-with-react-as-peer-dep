@@ -6,8 +6,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "build": "rollup --config --environment BUILD:production && open bundle-stats.html",
-    "build-dev": "rollup --config && open bundle-stats.html"
+    "build": "rollup --config --environment BUILD:production && open dist/bundle-stats.html"
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,7 @@
     "@babel/preset-react": "^7.25.9",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.1",
     "@types/react": "^18.3.12",
