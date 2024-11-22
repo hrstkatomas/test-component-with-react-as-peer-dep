@@ -1,0 +1,1 @@
+{"version":3,"file":"index.esm.js","sources":["../src/HelloWorld.tsx"],"sourcesContent":["const HelloWorld = () => {\n    return <div style={{ color: 'blue' }}>Hello World</div>;\n};\n\nexport default HelloWorld;\n"],"names":["HelloWorld","_jsx","style","color","children"],"mappings":"wCAAM,MAAAA,EAAa,IACRC,EAAA,MAAA,CAAKC,MAAO,CAAEC,MAAO,QAAQC,SAAA"}

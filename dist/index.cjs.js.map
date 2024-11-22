@@ -1,0 +1,1 @@
+{"version":3,"file":"index.cjs.js","sources":["../src/HelloWorld.tsx"],"sourcesContent":["const HelloWorld = () => {\n    return <div style={{ color: 'blue' }}>Hello World</div>;\n};\n\nexport default HelloWorld;\n"],"names":["_jsx","jsx","style","color","children"],"mappings":"+DAAmB,IACRA,EAAAC,IAAA,MAAA,CAAKC,MAAO,CAAEC,MAAO,QAAQC,SAAA"}

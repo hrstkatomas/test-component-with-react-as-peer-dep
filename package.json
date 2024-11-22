@@ -5,6 +5,7 @@
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "types": "dist/HelloWorld.d.ts",
   "scripts": {
     "build": "rollup --config --environment BUILD:production && open dist/bundle-stats.html"
   },
