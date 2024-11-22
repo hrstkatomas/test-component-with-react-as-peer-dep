@@ -1,4 +1,3 @@
-import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import babel from "@rollup/plugin-babel";
 import typescript from "@rollup/plugin-typescript";
@@ -20,9 +19,8 @@ export default {
         },
     ],
     // indicate which modules should be treated as external
-    external: ['react', 'react-dom'],
+    external: ['react'],
     plugins: [
-        resolve(), // Resolves node_modules imports
         typescript(), // Transpile TypeScript to JavaScript
         commonjs(), // Converts CommonJS to ESModules
         babel({
